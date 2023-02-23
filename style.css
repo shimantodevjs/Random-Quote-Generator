@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(backrgroud.png);
+    font-family: 'Spirax', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    background: #FFF;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 200px;
+}
+
+p{
+    padding: 50px 20px;
+    font-size: 20px;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px 20px;
+    float: right;
+    border: none;
+    margin-right: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #FFFDD0;
+    background: rgb(60,11,221);
+    background: linear-gradient(90deg, rgba(60,11,221,1) 0%, rgba(4,31,62,1) 100%);
+    font-family: 'Spirax', cursive;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
