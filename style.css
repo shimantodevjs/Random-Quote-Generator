@@ -41,7 +41,3 @@ button{
     font-family: 'Spirax', cursive;
     transition: all 0.5s ease;
 }
-
-button:hover{
-    transform: scale(1.2);
-}
